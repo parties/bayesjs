@@ -10,7 +10,7 @@ describe('getDistribution', () => {
     const engine = new InferenceEngine(network)
     const name = 'node25'
     const observed = engine.getDistribution(name)
-    const expected = allNodes.find(x => x.id === name)?.cpt
+    const expected = allNodes.find((x) => x.id === name)?.cpt
     expect(observed).toEqual(expected)
   })
 })

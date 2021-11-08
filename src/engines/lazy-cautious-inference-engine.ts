@@ -3,7 +3,6 @@ import {
   IInferenceEngine, ICptWithParents, ICptWithoutParents, IInferAllOptions,
 } from '../types'
 import { clone } from 'ramda'
-import roundTo = require('round-to')
 
 import { cptToFastPotential, FastPotential, fastPotentialToCPT, indexToCombination } from './FastPotential'
 import { FastClique } from './FastClique'
@@ -13,6 +12,7 @@ import { Formula, EvidenceFunction, updateReferences } from './Formula'
 import { propagatePotentials } from './symbolic-propagation'
 import { evaluate } from './evaluation'
 import { getNetworkInfo, initializeCliques, initializeEvidence, initializeNodeParents, initializeNodes, initializePosteriorCliquePotentials, initializePosteriorNodePotentials, initializePriorNodePotentials, initializeSeparatorPotentials, NetworkInfo, upsertFormula } from './util'
+import roundTo = require('round-to')
 
 /** This inference engine uses a modified version of the lazy cautious message
  * propigation strategy described in:

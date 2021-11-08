@@ -9398,10 +9398,10 @@
   "resolved" "https://sparkcognition.jfrog.io/sparkcognition/api/npm/npm/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typescript@*", "typescript@^3.5.1", "typescript@>=2.0", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
-  "integrity" "sha1-unKmpgCyFYE5xd2IUPcA4jFGQgI="
-  "resolved" "https://sparkcognition.jfrog.io/sparkcognition/api/npm/npm/typescript/-/typescript-3.5.1.tgz"
-  "version" "3.5.1"
+"typescript@*", "typescript@^3.9.10", "typescript@>=2.0", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  "integrity" "sha1-cPORCselHta+952ngAaQsZv3eLg="
+  "resolved" "https://sparkcognition.jfrog.io/sparkcognition/api/npm/npm/typescript/-/typescript-3.9.10.tgz"
+  "version" "3.9.10"
 
 "uglify-js@^3.1.4":
   "integrity" "sha1-cEaBNFxTqLIHn7bOwpSwXq0kL/U="
