@@ -1,5 +1,5 @@
 {
-  "name": "@parties/bayesjs",
+  "name": "bayesjs",
   "version": "0.6.3",
   "description": "Inference on Bayesian Networks",
   "main": "src/index.ts",
